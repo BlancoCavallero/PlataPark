@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "PlataPark",
-    "slug": "PlataPark",
+    "slug": "platapark",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fblancocavallero.platapark"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.fblancocavallero.platapark"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,12 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "008f26e2-eef7-4f3c-bccd-68d083b61875"
+      }
+    },
+    "owner": "fblancocavallero"
   }
 }
